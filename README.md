@@ -1,25 +1,24 @@
 # Pinnacle Investment Sentiment Analysis
-
-## Norman Dewantoro
+Norman Dewantoro
 
 ## About this repo
 
 This repo contains all the codes and report for sentiment analysis project that was generated during my internship at Pinnacle Investment.
 
-## About the project 
+## About this project 
 
-
+The objective of this project is to utilize sentiment analysis machine learning methods to
 
 ## Contents
 
 ### wrangling.py
 
-- This file implements data wrangling to clean the data given text data.
-- 
+- This file contains implementations related to the data wrangling process.
+- In addition, can extract stock names from financ
 
 ### model.py
 
-- This file contains codes to train the BERT Sentiment Model from the IndoNLU team.
+- This file contains implementataion
 
 ### sentiment.py
 
@@ -28,7 +27,8 @@ This repo contains all the codes and report for sentiment analysis project that 
 
 
 ### portfolio_contuction.py
--
+
+- This file contains im
 -
 
 
@@ -36,9 +36,9 @@ This repo contains all the codes and report for sentiment analysis project that 
 
 This file contains the final report of the project during 
 
-### Source Material
+## Source Material
 
--
+- 
 -
 -
 -
