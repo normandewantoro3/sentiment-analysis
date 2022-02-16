@@ -1,4 +1,3 @@
-import random
 import numpy as np
 import pandas as pd
 import torch
@@ -7,15 +6,7 @@ import torch.nn.functional as F
 from tqdm import tqdm
 
 from transformers import BertForSequenceClassification, BertConfig, BertTokenizer
-from nltk.tokenize import TweetTokenizer
-
-import numpy as np
-import pandas as pd
-import string
-import torch
-import re
 from torch.utils.data import Dataset, DataLoader
-from transformers import AutoTokenizer
 
 
 def forward_sequence_classification(model, batch_data, i2w, is_test=False, device='cpu', **kwargs):
